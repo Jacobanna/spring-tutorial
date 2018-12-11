@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="item1" class="com.bharath.spring.assignment.setterinjection.Item"
+          p:id="1" p:name="banana" p:price="2.5" p:quantity="5"/>
+    <bean name="item2" class="com.bharath.spring.assignment.setterinjection.Item"
+          p:id="1" p:name="apple" p:price="1.48" p:quantity="3"/>
+    <bean name="item3" class="com.bharath.spring.assignment.setterinjection.Item"
+          p:id="1" p:name="kiwi" p:price="5.31" p:quantity="2"/>
+
+    <bean name="shoppingcart" class="com.bharath.spring.assignment.setterinjection.ShoppingCart">
+        <property name="items">
+            <list>
+                <value>???</value>
+                <value>???</value>
+                <value>???</value>
+            </list>
+        </property>
+    </bean>
+</beans>

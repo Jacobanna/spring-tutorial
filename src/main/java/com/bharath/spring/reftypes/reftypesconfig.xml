@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="scores" class="com.bharath.spring.reftypes.Scores" p:maths="80" p:physics="90" p:chemistry="78"/>
+
+    <!--FIRST WAY-->
+    <!--<bean name="student" class="com.bharath.spring.reftypes.Student">-->
+        <!--<property name="scores">-->
+            <!--<ref bean="scores"/>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+    <!--SECOND WAY-->
+    <!--<bean name="student" class="com.bharath.spring.reftypes.Student">-->
+        <!--<property name="scores" ref="scores"/>-->
+    <!--</bean>-->
+
+    <!--THIRD WAY-->
+    <bean name="student" class="com.bharath.spring.reftypes.Student" p:scores-ref="scores"/>
+</beans>
