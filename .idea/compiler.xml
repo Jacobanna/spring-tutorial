@@ -9,5 +9,8 @@
         <module name="springcore" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcoreadvanced" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
