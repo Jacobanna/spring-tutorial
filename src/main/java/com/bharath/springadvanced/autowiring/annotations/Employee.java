@@ -1,4 +1,4 @@
-package com.bharath.springadvanced.autowiring;
+package com.bharath.springadvanced.autowiring.annotations;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -13,6 +13,7 @@ public class Employee {
         return address;
     }
 
+    @Autowired
     public void setAddress(Address address) {
         this.address = address;
     }

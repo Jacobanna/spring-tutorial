@@ -8,7 +8,19 @@
     <bean class="com.bharath.springadvanced.autowiring.Address"
           name="address" p:houseNumber="122" p:street="mira mesa" p:city="hoolywood"/>
 
+    <!--byType-->
     <!--if no bean is found (address) it will inject null object-->
+    <!--if 2 beans with the same type are found spring will throw an exception-->
+    <!--<bean class="com.bharath.springadvanced.autowiring.Employee"-->
+          <!--name="employee" autowire="byType"/>-->
+
+    <!--byName-->
+    <!--if no bean is found (address) it will inject null object-->
+    <!--if 2 beans with the same name are found spring will throw an exception-->
+    <!--<bean class="com.bharath.springadvanced.autowiring.Employee"-->
+          <!--name="employee" autowire="byName"/>-->
+
+    <!--constructor-->
     <bean class="com.bharath.springadvanced.autowiring.Employee"
-          name="employee" autowire="byType"/>
+          name="employee" autowire="constructor"/>
 </beans>
