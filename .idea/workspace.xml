@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc8c42f7-7371-4ce2-99a7-37fa97baccaa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/assignment/autowiring/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/assignment/autowiring/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/assignment/autowiring/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/assignment/autowiring/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/autowiring/annotations/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/autowiring/annotations/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/autowiring/annotations/Employee2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/autowiring/annotations/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/autowiring/annotations/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/standalone/collections/ProductsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/standalone/collections/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/standalone/collections/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/stereotype/annotations/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/stereotype/annotations/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/stereotype/annotations/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/stereotype/annotations/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/autowiring/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/autowiring/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/autowiring/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/autowiring/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bharath/springadvanced/autowiring/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bharath/springadvanced/autowiring/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bharath/springadvanced/autowiring/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bharath/springadvanced/autowiring/config.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,21 +22,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/assignment/autowiring/Test.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/stereotype/annotations/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+            <state relative-caret-position="272">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/assignment/autowiring/Customer.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/stereotype/annotations/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="153">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instructor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/stereotype/annotations/Instructor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1058#1059#0" expanded="true" />
+                <element signature="e#1093#1094#0" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
+                <element signature="e#1208#1209#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Profile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/stereotype/annotations/Profile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,13 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/bharath/spring/lc/interfaces/interfaceconfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bharath/spring/lc/annotations/Patient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bharath/spring/lc/annotations/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bharath/spring/lc/annotations/annotationsconfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bharath/spring/assignment/lifecycle/lifecycleconfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bharath/spring/assignment/lifecycle/TicketReservation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bharath/spring/assignment/lifecycle/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bharath/spring/dependencycheck/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bharath/spring/dependencycheck/Prescription.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bharath/spring/dependencycheck/config.xml" />
@@ -116,9 +147,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bharath/spring/assignment/autowiring/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bharath/spring/assignment/autowiring/config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/assignment/autowiring/Reservation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/assignment/autowiring/config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/assignment/autowiring/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/assignment/autowiring/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/assignment/autowiring/config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/standalone/collections/config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/standalone/collections/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/standalone/collections/ProductsList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/stereotype/annotations/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/stereotype/annotations/config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/stereotype/annotations/Profile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/stereotype/annotations/Instructor.java" />
       </list>
     </option>
   </component>
@@ -135,11 +173,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="562" />
-    <option name="y" value="-10" />
-    <option name="width" value="1013" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -150,6 +187,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,15 +229,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bharath" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bharath" type="462c0819:PsiDirectoryNode" />
               <item name="springadvanced" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -209,7 +239,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bharath" type="462c0819:PsiDirectoryNode" />
               <item name="springadvanced" type="462c0819:PsiDirectoryNode" />
-              <item name="autowiring" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcore" type="b2602c69:ProjectViewProjectNode" />
@@ -219,17 +249,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bharath" type="462c0819:PsiDirectoryNode" />
               <item name="springadvanced" type="462c0819:PsiDirectoryNode" />
-              <item name="autowiring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bharath" type="462c0819:PsiDirectoryNode" />
-              <item name="springadvanced" type="462c0819:PsiDirectoryNode" />
-              <item name="autowiring" type="462c0819:PsiDirectoryNode" />
               <item name="annotations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -240,8 +259,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,25 +272,26 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.bharath.spring.assignment" />
-      <recent name="com.bharath.spring.reftypes" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jacob\Documents\Kodilla_Java\Projects\springcore\src\main\java\com\bharath\spring\assignment\setterinjection" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jacob\Documents\Kodilla_Java\Projects\springcore\src\main\java\com\bharath\springadvanced\stereotype\annotations" />
+      <recent name="C:\Users\Jacob\Documents\Kodilla_Java\Projects\springcore\src\main\java\com\bharath\springadvanced\standalone\collections" />
       <recent name="C:\Users\Jacob\Documents\Kodilla_Java\Projects\springcore\src\main\java\com\bharath\springadvanced\assignment\autowiring" />
       <recent name="C:\Users\Jacob\Documents\Kodilla_Java\Projects\springcore\src\main\java\com\bharath\spring\assignment\autowiring" />
       <recent name="C:\Users\Jacob\Documents\Kodilla_Java\Projects\springcore\src\main\java\com\bharath\springadvanced\autowiring\annotations" />
-      <recent name="C:\Users\Jacob\Documents\Kodilla_Java\Projects\springcore\src\main\java\com\bharath\springadvanced\autowiring" />
-      <recent name="C:\Users\Jacob\Documents\Kodilla_Java\Projects\springcore\src\main\java\com\bharath\springadvanced" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bharath.springadvanced.standalone.collections" />
       <recent name="com.bharath.springadvanced.assignment.autowiring" />
       <recent name="com.bharath.spring.assignment.propertyplaceholder" />
       <recent name="com.bharath.spring.constructorinjection.ambiguity" />
       <recent name="com.bharath.spring.set" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Jacob\Documents\Kodilla_Java\Projects\springcore\src\main\java\com\bharath\spring\assignment\setterinjection" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bharath.spring.assignment" />
+      <recent name="com.bharath.spring.reftypes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -288,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.Test (4)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bharath.springadvanced.autowiring.annotations.Test" />
       <module name="springcore" />
@@ -311,24 +329,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bharath.spring.propertyplaceholder.Test" />
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bharath.springadvanced.standalone.collections.Test" />
       <module name="springcore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bharath.spring.propertyplaceholder.*" />
+          <option name="PATTERN" value="com.bharath.springadvanced.standalone.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bharath.spring.assignment.propertyplaceholder.Test" />
+    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bharath.springadvanced.stereotype.annotations.Test" />
       <module name="springcore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bharath.spring.assignment.propertyplaceholder.*" />
+          <option name="PATTERN" value="com.bharath.springadvanced.stereotype.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,19 +404,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Test (4)" />
-      <item itemvalue="Application.Test (5)" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
+      <item itemvalue="Application.Test (3)" />
+      <item itemvalue="Application.Test (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (4)" />
+        <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test (5)" />
-        <item itemvalue="Application.Test (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -417,46 +435,47 @@
       <workItem from="1544554288163" duration="10384000" />
       <workItem from="1544730122537" duration="2198000" />
       <workItem from="1544732340007" duration="2957000" />
-      <workItem from="1544735874646" duration="3401000" />
+      <workItem from="1544735874646" duration="3504000" />
+      <workItem from="1544886776334" duration="3699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24015000" />
+    <option name="totallyTimeSpent" value="27817000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947533" weight="0.32785088" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4989059" weight="0.3278328" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.3224401" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.22757111" side_tool="true" visible="true" weight="0.32233223" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.77558637" weight="0.3224401" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7724289" visible="true" weight="0.32233223" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49946752" weight="0.32893288" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.8426023" weight="0.32785088" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.8402626" weight="0.32673267" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16684435" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33260393" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4978678" weight="0.3267974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39978212" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4978678" weight="0.3267974" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,86 +490,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/spring/dependencycheck/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/spring/set/setconfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/spring/reftypes/reftypesconfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/spring/innerbeans/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/spring/innerbeans/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/spring/innerbeans/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/spring/innerbeans/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/spring/assignment/depcheckandscopes/University.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/spring/assignment/lifecycle/lifecycleconfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -729,13 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/autowiring/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/autowiring/annotations/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -754,41 +686,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/spring/assignment/autowiring/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/spring/assignment/autowiring/Reservation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/spring/assignment/autowiring/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/spring/assignment/autowiring/Customer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/spring/assignment/autowiring/Reservation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/spring/assignment/autowiring/config.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/autowiring/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,36 +724,123 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/assignment/autowiring/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/assignment/autowiring/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/assignment/autowiring/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="255">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/assignment/autowiring/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/spring/list/listconfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/autowiring/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="374">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/assignment/autowiring/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/standalone/collections/ProductsList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+        <state relative-caret-position="272">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/standalone/collections/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/standalone/collections/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/stereotype/annotations/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/stereotype/annotations/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/stereotype/annotations/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bharath/springadvanced/stereotype/annotations/Instructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
