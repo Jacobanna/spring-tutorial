@@ -12,14 +12,22 @@ import java.util.List;
 @Component("inst")
 @Scope("prototype")
 public class Instructor {
-    @Value("10")
+//    @Value("#{66+44}")
+//    @Value("#{T(java.lang.Math).abs(-99)}")
+//    @Value("#{new Integer(10)}")
+    @Value("#{T(java.lang.Integer).MIN_VALUE}")
     private int id;
-    @Value("Dennis")
+//    @Value("Dennis")
+//    @Value("#{'Bharath'.toUpperCase()}")
+    @Value("#{new java.lang.String('Bharath')}")
     private String name;
     @Value("#{topics}")
     private List<String> topics;
     @Autowired
     private Profile profile;
+//    @Value("#{2+4>8}")
+    @Value("#{2+4>8?false:true}")
+    private boolean active;
 
     public int getId() {
         return id;
@@ -60,6 +68,7 @@ public class Instructor {
                 ", name='" + name + '\'' +
                 ", topics=" + topics +
                 ", profile=" + profile +
+                ", active=" + active +
                 '}';
     }
 }
