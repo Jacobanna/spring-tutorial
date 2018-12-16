@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="customer" class="com.bharath.spring.map.Customer">
+        <property name="id" value="2"/>
+        <property name="products">
+            <map>
+                <!--simple way-->
+                <entry key="1" value="shovel"></entry>
+                <!--some other-->
+                <entry key="2">
+                    <value>Ipad</value>
+                </entry>
+                <!--and other-->
+                <entry value="tea">
+                    <key>
+                        <value>3</value>
+                    </key>
+                </entry>
+                <!--and even weirder-->
+                <entry>
+                    <key>
+                        <value>4</value>
+                    </key>
+                    <value>lighter</value>
+                </entry>
+            </map>
+        </property>
+    </bean>
+</beans>

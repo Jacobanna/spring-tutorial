@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springcore" />
+        <module name="springjdbc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.bharath.springadvanced.autowiring.Address"
+          name="address" p:houseNumber="122" p:street="mira mesa" p:city="hoolywood"/>
+
+    <!--byType-->
+    <!--if no bean is found (address) it will inject null object-->
+    <!--if 2 beans with the same type are found spring will throw an exception-->
+    <!--<bean class="com.bharath.springadvanced.autowiring.Employee"-->
+          <!--name="employee" autowire="byType"/>-->
+
+    <!--byName-->
+    <!--if no bean is found (address) it will inject null object-->
+    <!--if 2 beans with the same name are found spring will throw an exception-->
+    <!--<bean class="com.bharath.springadvanced.autowiring.Employee"-->
+          <!--name="employee" autowire="byName"/>-->
+
+    <!--constructor-->
+    <bean class="com.bharath.springadvanced.autowiring.Employee"
+          name="employee" autowire="constructor"/>
+</beans>
