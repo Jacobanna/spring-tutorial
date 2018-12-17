@@ -10,6 +10,7 @@
     <modules>
         <module>springjdbc</module>
         <module>springorm</module>
+        <module>springmvc</module>
     </modules>
     <packaging>pom</packaging>
 
