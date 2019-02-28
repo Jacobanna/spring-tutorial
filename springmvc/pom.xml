@@ -13,8 +13,7 @@
     <packaging>war</packaging>
 
     <name>springmvc Maven Webapp</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
+    <url>http://maven.apache.org</url>
 
     <properties>
         <springframework.version>4.3.6.RELEASE</springframework.version>
